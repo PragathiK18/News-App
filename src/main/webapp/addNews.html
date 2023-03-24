@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="addNews.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+
+
+<!--
+			
+			<input name="name1" id="logo" placeholder="Logo"></input>
+<input name="password1"  id="category" placeholder="Password"></input>
+<textarea name="mailId" id="content" placeholder="Content"></textarea>
+<input name="phoneNumber" id="cName" placeholder="Company Name"></input>
+<input name="Id"  id="newsTitle" placeholder="News Title"></input>
+<input name="Id"  id="newsImg" placeholder="News Img"></input>
+	
+	
+	
+<button id="signUp1" onclick="addNews()">Add News</button>
+
+<!--  -->
+
+
+<form class="signup" onsubmit="return false" autocomplete="off">
+  <h1>Add News</h1>
+ 
+  <div class="signup__field">
+    <input class="signup__input" id="logo" type="text" name="username"  required />
+    <label class="signup__label" for="username">Logo</label>
+  </div>
+
+  <div class="signup__field">
+    <input class="signup__input" type="text" name="email" id="category" required />
+    <label class="signup__label" for="email">Category</label>
+  </div>
+
+  <div class="signup__field">
+    <input class="signup__input"  name="password" id="content" required />
+    <label class="signup__label"  for="password">Content</label>
+  </div>
+  
+    <div class="signup__field">
+    <input class="signup__input"  name="password" id="fullContent" required />
+    <label class="signup__label"  for="password">fullContent</label>
+  </div>
+  
+    <div class="signup__field">
+    <input class="signup__input"  name="password" id="cName"  required />
+    <label class="signup__label" for="password">Company Name</label>
+  </div>
+  
+    <div class="signup__field">
+    <input class="signup__input"  name="password" id="newsTitle" required />
+    <label class="signup__label" for="password">News Title</label>
+  </div>
+  
+    <div class="signup__field">
+    <input class="signup__input"  id="newsImg" name="password"  required />
+    <label class="signup__label" for="password">News Img</label>
+  </div>
+
+
+  <button id="signUp1" onclick="addNews()">Add News</button>
+</form>	
+	
+
+
+   <script src="addNews.js">
+  console.log("a");
+  </script>
+
+
+
+
+
+
+</body>
+</html>

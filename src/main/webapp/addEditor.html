@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="addEditor.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<!--	
+
+<h1>Create Editor</h1>
+
+
+
+
+<input name="name1" id="name" placeholder="username"></input>
+<input name="password1"  id="password" placeholder="Password"></input>
+<input name="mailId" id="mail" placeholder="Email"></input>
+<input name="phoneNumber" id="number" placeholder="Number"></input>
+<input name="Id"  id="id" placeholder="id"></input>
+	
+<button id="signUp1" onclick="addEditor()">Add Editor</button>
+<!--  -->
+
+<form class="signup" onsubmit="return false" autocomplete="off">
+  <h1>Add Editor</h1>
+ 
+  <div class="signup__field">
+    <input class="signup__input" id="name" type="text" name="username"  required />
+    <label class="signup__label" for="username">Username</label>
+  </div>
+
+  <div class="signup__field">
+    <input class="signup__input" type="text" name="email" id="password" required />
+    <label class="signup__label" for="email">Password</label>
+  </div>
+
+  <div class="signup__field">
+    <input class="signup__input" type="password" name="password" id="mail" required />
+    <label class="signup__label"  for="password">Email</label>
+  </div>
+  
+    <div class="signup__field">
+    <input class="signup__input"  name="password" id="number"  required />
+    <label class="signup__label" for="password">Contact Number</label>
+  </div>
+  
+
+  <button id="signUp1" onclick="addEditor()">Add Editor</button>
+</form>	
+
+
+
+
+<script src="addEditor.js">
+  console.log("a");
+  </script>
+</body>
+</html>
